@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: .3rem solid #008ed6;
+  background: #343a40;
+  opacity: 0.7; }
+
+#Home {
+  background: url("../images/home.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70rem; }
+  #Home .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 70rem; }
+  #Home .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: .4rem;
+    font-size: 2rem;
+    border-radius: .5rem; }
+  #Home .card-form {
+    opacity: 0.8; }
+  #Home .home_inner {
+    padding-top: 15rem;
+    padding-bottom: 5rem; }
+
+#Explore_min .fa {
+  font-size: 2rem;
+  background: #333;
+  color: #fff;
+  padding: .4rem;
+  border-radius: 0.5rem; }
+
+#create_min .fa {
+  font-size: 2rem;
+  background: #fff;
+  color: #008ed6;
+  padding: .4rem;
+  border-radius: 0.5rem; }
+
+#Share_min .fa {
+  font-size: 2rem;
+  background: #333;
+  color: #fff;
+  padding: .4rem;
+  border-radius: 0.5rem; }
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 3.6rem; } }
