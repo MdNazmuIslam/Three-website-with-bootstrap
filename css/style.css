@@ -23,6 +23,7 @@ body {
   background: url("../images/slider 3.jpg");
   background-size: cover; }
 .website-add{
+  z-index: 99999;
   top: 10rem;
   color: #000;
   border-radius: 1rem;
